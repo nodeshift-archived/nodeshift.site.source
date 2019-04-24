@@ -1,0 +1,53 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Nodeshift from Red Hat"
+defaultcontentlanguage = "en"
+theme = "hugo-coder"
+canonifyurls = true
+
+[params]
+    info = "Node.js projects from Red Hat Middleware"
+    description = "Node.js projects from Red Hat Middleware"
+    keywords = "Red Hat, Node.js"
+    avatarurl = "/images/nodeshift_logo_lightbkg.svg"
+
+    favicon_32 = "/images/nodeshift_icon.svg"
+    favicon_16 = "/images/nodeshift_icon.svg"
+
+    footercontent = "Copyright Red Hat, Inc."
+
+    hidecredits = true
+    hidecopyright = false
+    commit = true
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/nodeshift/"
+[[params.social]]
+    name = "Jira"
+    icon = "fab fa-jira fa-2x"
+    weight = 2
+    url = "https://issues.jboss.org/projects/NODE/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/johndoe/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
