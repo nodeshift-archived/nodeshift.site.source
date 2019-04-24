@@ -41,8 +41,8 @@ canonifyurls = true
 [[menu.main]]
     name = "opossum"
     weight = 1
-    url  = "https://opossum.nodeshift.dev/"
+    url  = "https://nodeshift.dev/opossum"
 [[menu.main]]
     name = "nodeshift"
     weight = 2
-    url = "http://github.com/nodeshift/nodeshift"
+    url = "http://nodeshift.dev/nodeshift"
