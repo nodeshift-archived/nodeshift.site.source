@@ -18,7 +18,7 @@ canonifyurls = true
 
     hidecredits = true
     hidecopyright = false
-    commit = true
+    commit = false
 
     rtl = false
 
@@ -36,18 +36,13 @@ canonifyurls = true
     icon = "fab fa-jira fa-2x"
     weight = 2
     url = "https://issues.jboss.org/projects/NODE/"
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
-    weight = 3
-    url = "https://twitter.com/johndoe/"
 
 # Menu links
 [[menu.main]]
-    name = "Blog"
+    name = "opossum"
     weight = 1
-    url  = "/posts/"
+    url  = "https://opossum.nodeshift.dev/"
 [[menu.main]]
-    name = "About"
+    name = "nodeshift"
     weight = 2
-    url = "/about/"
+    url = "http://github.com/nodeshift/nodeshift"
