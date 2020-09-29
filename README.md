@@ -1,5 +1,9 @@
 ## Source Files for https://nodeshift.dev
 
+# DEPRECATED
+
+This is no longer being used for the Website source.  Website Source will love at https://github.com/nodeshift/nodeshift.github.io where a github action will publish on pushes to master
+
 This repository contains the [Hugo](https://gohugo.io) project which
 is used to generate the static files for the website. Those static
 files live in https://github.com/nodeshift/nodeshift.github.io. But
@@ -47,4 +51,3 @@ changes in all three repos, `nodeshift.github.io`, `nodeshift.site.source` and
 
   * Figure out the best way to have a staging branch and website.
   * Blog content (perhaps syndicated from developers.redhat.com).
-  
